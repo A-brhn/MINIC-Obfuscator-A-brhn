@@ -68,8 +68,9 @@ block
     ;
 	
 expr
-    : expr op=('*'|'/') expr
+    : '-' expr                
     | expr op=('+'|'-') expr
+    | expr op=('*'|'/') expr
     | expr op=('=='|'!='|'<'|'>'|'<='|'>=') expr
     | '(' expr ')'
     | ID
@@ -77,6 +78,7 @@ expr
     | CHAR
     | BOOL
     ;
+
 
 type: 'int' | 'char' | 'bool';
 
