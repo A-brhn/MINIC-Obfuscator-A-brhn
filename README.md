@@ -1,4 +1,7 @@
-# MINIC-Obfuscator
+# phase1 AND phase2
+
+
+# MINIC-Obfuscator AND  MINIC-deObfuscator
 
 **MINIC-Obfuscator** is a lightweight code obfuscation tool designed for a simplified version of C (MINIC). It applies several code transformation techniques to make source code harder to read while preserving its original functionality.
 
